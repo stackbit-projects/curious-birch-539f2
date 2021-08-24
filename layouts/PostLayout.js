@@ -77,7 +77,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                             </Link>
                           )}
                         </dd>
-                        <dt>Github</dt>
+                        
                         <dd>
                             {author.github && (
                             <Link
