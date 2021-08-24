@@ -77,8 +77,16 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                             </Link>
                           )}
                         </dd>
+                        <dt>Github</dt>
                         <dd>
-                            
+                            {author.twitter && (
+                            <Link
+                              href={author.twitter}
+                              className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                            >
+                              {author.twitter.replace('https://twitter.com/', '@')}
+                            </Link>
+                          )}
                         </dd>
                       </dl>
                     </li>
