@@ -79,7 +79,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                         </dd>
                         <dt>Github</dt>
                         <dd>
-                            {author.twitter && (
+                            {author.github && (
                             <Link
                               href={author.twitter}
                               className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
