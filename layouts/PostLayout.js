@@ -77,6 +77,9 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                             </Link>
                           )}
                         </dd>
+                        <dd>
+                            
+                        </dd>
                       </dl>
                     </li>
                   ))}
